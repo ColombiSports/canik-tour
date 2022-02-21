@@ -2455,8 +2455,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	font-weight: 200;
 	text-align: center;
 	z-index: 2;
-	bottom: 50;
-	position: absolute;
+	bottom: 50px;
 	border-radius: 1em;
 	padding: 1em 0;
 }
