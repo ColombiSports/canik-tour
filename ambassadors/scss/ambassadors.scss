@@ -1,0 +1,294 @@
+@import "breakpoints";
+
+// LA SECTION DES AMBASSADEURS /////////////////////////////////////////////////
+//
+// La liste et la carte ------------------------------------------------------
+#ambassadors {
+	--accent-color: #900;
+	--border-radius: 0.33rem;
+	--transition: all 250ms ease-in-out;
+	accent-color: var(--accent-color);
+
+	width: 98vw;
+	gap: 1rem;
+
+	// Par défault en splitView
+	display: grid;
+	grid-template-columns: minmax(300px, 25vw) 1fr;
+
+	// En mode listView ----------------------------------------------------
+	// Toggle de classe gérer par l'écoute de la retaille
+	// de la fenêtre dans le fichier "Ambassadors.js"
+	&.listView {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: stretch;
+		justify-content: flex-start;
+	}
+
+	// Le logo Canik Ambassadeur -------------------------------------------
+	.logo_ambassadorOfficial {
+		padding: 5rem 0 0 0;
+		width: 350px;
+		grid-column: 1 / 3;
+		justify-self: center;
+	}
+}
+//
+
+// La liste des ambassadeurs sur le côté ///////////////////////////////////
+//
+#ambassadors_list {
+	height: 100vh;
+	background-color: white;
+	margin-top: 0;
+	padding: 1rem;
+	overflow-y: scroll;
+	position: relative;
+
+	// La scrollbar de la liste --------------------------------------------
+	&::-webkit-scrollbar {
+		width: 4px;
+		border-radius: 100px;
+		background: white;
+	}
+	&::-webkit-scrollbar-thumb {
+		border-radius: 100px;
+		background: var(--accent-color);
+	}
+
+	// 500px voir aussi "Ambassador.js"
+	@include media-max("phone-V") {
+		height: auto;
+		overflow-y: unset;
+	}
+
+	// Le choix de tri ------------------------------------------------------
+	fieldset {
+		width: 98%;
+		border-radius: var(--border-radius);
+		border-color: #999;
+		border-style: solid;
+		border-width: 1px;
+		display: inline-block;
+		margin-bottom: 1rem;
+		padding: 0 1rem;
+		position: relative;
+		//
+		legend {
+			display: block;
+			padding: 0 0.5rem;
+			width: auto;
+			color: #999;
+			font-size: 0.7rem;
+		}
+		label:hover,
+		input:hover {
+			cursor: pointer;
+		}
+		label {
+			color: black;
+			font-size: 0.85rem;
+		}
+		//
+		input {
+			margin-right: -0.1rem;
+			transform: translateY(0.1rem);
+		}
+	}
+}
+
+// Liste des ambassadeurs sur le côté de la map
+#ambassadors-nameList {
+	--zoom: 1;
+	--sorted: 1;
+	--span: #777;
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0.1em;
+	//
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: flex-start;
+	align-content: stretch;
+
+	li {
+		display: flex;
+		flex-direction: column;
+		transition: var(--transition);
+		overflow: hidden;
+		//
+		position: relative;
+		padding: 1rem;
+		margin-bottom: 0.6rem;
+		border-radius: var(--border-radius);
+		background-color: #ededed;
+		//
+
+		&:hover {
+			cursor: pointer;
+			--span: black;
+			background-color: #dcdcdc;
+		}
+
+		& span {
+			font-size: calc(0.8rem * var(--sorted) * var(--zoom));
+			transition: var(--transition);
+			color: var(--span);
+			// padding-left: 4rem;
+		}
+
+		span.ambassador_dept {
+			position: absolute;
+			font-weight: 900;
+			font-size: 4rem;
+			letter-spacing: -0.5rem;
+			right: 1rem;
+			padding-left: 0;
+			opacity: 1;
+			transform: translateY(0.5rem);
+			opacity: 0.15;
+			transition: all 250ms ease-in-out;
+		}
+
+		&.selected {
+			span.ambassador_dept {
+				font-size: 6rem;
+				opacity: 1;
+				right: -0.5rem;
+			}
+			--zoom: 1.25;
+			pointer-events: none;
+			background-color: #fff;
+			border: solid 1px #666;
+			span {
+				color: var(--accent-color);
+			}
+			&::before {
+				content: "";
+				background-image: url("../img/CanikFlag.png");
+				background-size: contain;
+				width: 28px;
+				height: 28px;
+				position: absolute;
+				transform: translate3d(-10px, -10px, 0);
+			}
+		}
+	}
+
+	@mixin sortedBy {
+		--sorted: 1.3;
+		font-weight: bold;
+	}
+
+	&.sortBy_name .ambassador_name {
+		@include sortedBy();
+	}
+
+	&.sortBy_district .ambassador_district {
+		@include sortedBy();
+	}
+}
+
+#ambassadors_map {
+	border-radius: var(--border-radius);
+	height: 100vh;
+}
+
+// Google map style /////////////////////////////////////////////////////////////
+
+.gm-style {
+	&-iw-d {
+		overflow: hidden !important;
+		max-width: 250px;
+	}
+	.gm-style-iw-c {
+		background: linear-gradient(#ccc, #fff);
+		filter: drop-shadow(0 0 25px rgb(0 0 0 / 25%));
+		overflow: hidden !important;
+		padding: 1rem !important;
+	}
+	.gm-style-iw-tc {
+		&::after {
+			background-color: #fff;
+		}
+	}
+}
+
+// Les autres villes ------------------------------------------------------------
+
+.poi-info-window div,
+.poi-info-window a {
+	background: none !important;
+}
+
+// Fenêtre popup sur la carte ///////////////////////////////////////////////////
+
+@mixin aligneCenter {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: flex-start;
+	align-items: center;
+}
+//
+
+.ambassadorWindowInfo {
+	--color: #666;
+
+	padding-bottom: 1.5rem;
+	font-family: "Oswald", sans-serif !important;
+	@include aligneCenter;
+
+	p {
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 0.8rem;
+		margin: 0.1rem;
+		color: var(--color);
+	}
+	a {
+		color: var(--color);
+		text-decoration: none;
+		text-transform: uppercase;
+		//
+		&:hover {
+			color: var(--accent-color);
+		}
+		&:visited {
+			color: var(--color);
+		}
+	}
+
+	.infos {
+		@include aligneCenter;
+	}
+
+	.company {
+		color: black;
+		font-size: 1rem;
+		font-weight: 400;
+	}
+	.logo {
+		width: 75%;
+		padding: 0;
+		width: 100%;
+		grid-column: 1 / 3;
+		justify-self: center;
+		filter: drop-shadow(0px 0px 20px white);
+	}
+	.city {
+		font-size: 1rem;
+		margin-bottom: 1.5rem;
+	}
+	.phone {
+		font-size: 1.75rem;
+		font-weight: 900;
+		color: var(--accent-color);
+	}
+}

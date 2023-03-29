@@ -1,0 +1,568 @@
+[
+	{
+		"id": "AVEYRON",
+		"name": "AVEYRON PECHE CHASSE LOISIRS",
+		"address": "32, rue de la Solidarité",
+		"zip": "12850",
+		"dept": "12",
+		"city": "ONET-LE-CHÂTEAU",
+		"phone": "05 65 78 15 03",
+		"lat": 44.36765474924758,
+		"lng": 2.5810813557425134,
+		"website": "https://aveyronpechechasseloisirs.com/",
+		"facebook": "https://www.facebook.com/people/Aveyron-P%C3%AAche-Chasse-Loisirs-Sarl-Bernad-et-Fils/100057492818549/",
+		"logo": "aveyron_peche_chasse_loisirs.png",
+		"brands": [
+			"TAURUS",
+			"CANIK"
+		]
+	},
+	{
+		"id": "PECHE",
+		"name": "PECHE CHASSE LOISIRS",
+		"address": "154 Route de la Dreche",
+		"zip": "81000",
+		"dept": "81",
+		"city": "ALBI",
+		"phone": "05 63 60 99 85",
+		"lat": 43.96108268831869,
+		"lng": 2.1509197129007886,
+		"website": "https://aveyronpechechasseloisirs.com/",
+		"facebook": "https://www.facebook.com/pechechasseloisirs81/",
+		"logo": "peche_chasse_loisirs.png",
+		"brands": [
+			"TAURUS",
+			"CANIK"
+		]
+	},
+	{
+		"id": "EMPREINTE",
+		"name": "EMPREINTE NATURE",
+		"address": "2, rue de Meuvain",
+		"zip": "21220",
+		"dept": "21",
+		"city": "FIXIN",
+		"phone": "06 24 73 25 06",
+		"lat": 47.243696915043266,
+		"lng": 4.98877074848958,
+		"website": "https://www.google.com/maps/place/Empreinte+Nature/@47.2435476,4.9866035,17z/data=!3m1!4b1!4m5!3m4!1s0x47f29b733c4d7dc5:0x3c7df6c89f5af1d7!8m2!3d47.243544!4d4.9887922",
+		"facebook": "https://fr-fr.facebook.com/empreintenature/",
+		"logo": "empreinte_nature.png",
+		"brands": [
+			"TAURUS",
+			"CANIK"
+		]
+	},
+	{
+		"id": "1000",
+		"name": "TIR 1000",
+		"address": "90, rue Jeanne d’Arc",
+		"zip": "75013",
+		"dept": "75",
+		"city": "PARIS",
+		"phone": "01 45 83 34 41",
+		"lat": 48.83293554527602,
+		"lng": 2.364611146905897,
+		"website": "https://www.tirmille.fr/index.php",
+		"facebook": "https://fr-fr.facebook.com/people/Tir1000/100024153832801/",
+		"logo": "tir_1000.png",
+		"brands": [
+			"TAURUS",
+			"CANIK"
+		]
+	},
+	{
+		"id": "FMR",
+		"name": "ARMURERIE FMR",
+		"address": "3, rue Michelet ",
+		"zip": "93500",
+		"dept": "95",
+		"city": "PANTIN",
+		"phone": "01 49 42 91 81",
+		"lat": 48.8907795141725,
+		"lng": 2.409452246646907,
+		"website": "https://armurerie-fmr.fr/",
+		"facebook": "",
+		"logo": "armurerie_fmr.png",
+		"brands": [
+			"TAURUS",
+			"CANIK"
+		]
+	},
+	{
+		"id": "RICHARD",
+		"name": "ARMURERIE RICHARD",
+		"address": "Pavillon du sanglier Le Paquis de Frappant",
+		"zip": "08110",
+		"dept": "08",
+		"city": "MOGUES",
+		"phone": "03 24 22 00 11",
+		"lat": 49.669356495927744,
+		"lng": 5.286666092496907,
+		"website": "https://www.armurerie-richard.com/",
+		"facebook": "https://m.facebook.com/people/Armurerie-Richard/100007866735211/",
+		"logo": "armurerie_richard.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "REMOISE",
+		"name": "ARMURERIE SAINT REMOISE",
+		"address": "267,av. du Maréchal Juin",
+		"zip": "13210",
+		"dept": "13",
+		"city": "SAINT-REMY-DE-PROVENCE",
+		"phone": "04 90 92 91 85",
+		"lat": 43.793087828179004,
+		"lng": 4.826481877864182,
+		"website": "https://www.google.com/maps/place/armurerie+saint+r%C3%A9moise/@43.7929059,4.8243039,17z/data=!3m1!4b1!4m5!3m4!1s0x12b5e589cd4eaef5:0x3c1063cb4a17f6ac!8m2!3d43.792902!4d4.8264926",
+		"facebook": "https://www.facebook.com/people/Armurerie-Saint-R%C3%A9moise-la-page/100051557933892/",
+		"logo": "armurerie_saint_remoise.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "ARMEXPRESS",
+		"name": "ARMEXPRESS",
+		"address": "Z.A Les Jalassières 65, rue Cornaline",
+		"zip": "13510",
+		"dept": "13",
+		"city": "EGUILLES",
+		"phone": "04 42 23 99 31",
+		"lat": 43.54704641950362,
+		"lng": 5.359031380963027,
+		"website": "https://armexpress.fr/",
+		"facebook": "https://www.facebook.com/people/Armexpress/100063517901824/?ref=settings",
+		"logo": "armexpress.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "RIFFAUT",
+		"name": "ARMURERIE RIFFAUT",
+		"address": "1, rue de la Basse Franconie",
+		"zip": "14920",
+		"dept": "14",
+		"city": "ORBEC",
+		"phone": "02 31 32 80 25",
+		"lat": 49.02501647372269,
+		"lng": 0.40324998138462326,
+		"website": "https://www.riffaut.com/",
+		"facebook": "https://fr-fr.facebook.com/riffautarmurerie/",
+		"logo": "armurerie_riffaut.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "MANSLE",
+		"name": "MANSLE PASSION NATURE",
+		"address": "34, rue Grande",
+		"zip": "16230",
+		"dept": "16",
+		"city": "MANSLE",
+		"phone": "05 17 17 62 25",
+		"lat": 45.87581002817382,
+		"lng": 0.17853922258645302,
+		"website": "https://mansle-passion-nature.business.site/",
+		"facebook": "",
+		"logo": "mansle_passion_nature.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "BAUMEL",
+		"name": "ARMURERIE BAUMEL",
+		"address": "ZAC du Tec 410, Avenue Magellan",
+		"zip": "30320",
+		"dept": "30",
+		"city": "MARGUERITTES",
+		"phone": "04 66 62 06 70",
+		"lat": 43.86976902001416,
+		"lng": 4.4482204061960555,
+		"website": "https://baumel.fr/",
+		"facebook": "",
+		"logo": "armurerie_baumel.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "OCCITAN",
+		"name": "TIR OCCITAN",
+		"address": "Route de Bel air",
+		"zip": "34790",
+		"dept": "34",
+		"city": "GRABELS",
+		"phone": "04 67 55 59 00",
+		"lat": 43.64242426629708,
+		"lng": 3.7628002084013707,
+		"website": "https://www.tiroccitan.com/",
+		"facebook": "https://www.facebook.com/people/Armurerie-Tir-Occitan/100063501886147/",
+		"logo": "tir_occitan.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "TOURANGELLE",
+		"name": "COUTELLERIE TOURANGELLE",
+		"address": "174, rue Antoine Laurent de Lavoisier",
+		"zip": "37320",
+		"dept": "37",
+		"city": "CORMERY",
+		"phone": "02 47 34 05 08",
+		"lat": 47.2549361634864,
+		"lng": 0.8427972221338891,
+		"website": "https://www.coutellerie-tourangelle.com/",
+		"facebook": "https://www.facebook.com/coutellerietourangelle",
+		"logo": "coutellerie_tourangelle.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "LEYDIER",
+		"name": "ARMURERIE LEYDIER",
+		"address": "8, rue de la Juiverie",
+		"zip": "38460",
+		"dept": "38",
+		"city": "CREMIEU",
+		"phone": "04 74 90 71 81",
+		"lat": 45.72508273507563,
+		"lng": 5.254425277514844,
+		"website": "https://www.leydier-armurerie.fr/",
+		"facebook": "https://fr-fr.facebook.com/people/Leydier-Armurerie/100070831467301/",
+		"logo": "armurerie_leydier.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "MILLIET",
+		"name": "ARMURERIE ERIC MILLIET",
+		"address": "11, rue de la Vertonne",
+		"zip": "44120",
+		"dept": "44",
+		"city": "VERTOU",
+		"phone": "02 51 79 73 92",
+		"lat": 47.18226596761499,
+		"lng": -1.4901588061525095,
+		"website": "https://www.armurerie-milliet.fr/",
+		"facebook": "",
+		"logo": "armurerie_eric_milliet.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "52",
+		"name": "CHASSE TIR 52",
+		"address": "35 Avenue de la République",
+		"zip": "52100",
+		"dept": "52",
+		"city": "SAINT-DIZIER",
+		"phone": "03 25 56 58 23",
+		"lat": 48.63742184609688,
+		"lng": 4.943978277520006,
+		"website": "https://www.google.com/maps/place/Chasse+Tir+52+Armurerie+Saint+Dizier/@48.6372765,4.9418003,17z/data=!4m5!3m4!1s0x47eb80ebc3f215ab:0xc116dac13178721b!8m2!3d48.6372499!4d4.9439805",
+		"facebook": "https://fr-fr.facebook.com/armurerie.chassetir52/",
+		"logo": "chasse_tir_52.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "POUDRIERE",
+		"name": "LA POUDRIERE",
+		"address": "Bellefontaine - Route de Thierville",
+		"zip": "55100",
+		"dept": "55",
+		"city": "CHARNY-SUR-MEUSE",
+		"phone": "07 87 57 36 46",
+		"lat": 49.193174230874334,
+		"lng": 5.335868289078431,
+		"website": "https://lapoudriere.simdif.com/",
+		"facebook": "https://www.facebook.com/people/La-Poudriere-LTD/100077340944306/",
+		"logo": "la_poudriere.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "HENRY",
+		"name": "ARMURERIE HENRY HURET",
+		"address": "49, rue Pierre Mauroy",
+		"zip": "59000",
+		"dept": "59",
+		"city": "LILLE",
+		"phone": "03 20 06 09 50",
+		"lat": 50.63552846950749,
+		"lng": 3.0672854072423044,
+		"website": "https://www.henry-huret.com/",
+		"facebook": "",
+		"logo": "armurerie_henry_huret.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "CAMERON",
+		"name": "ARMURERIE CAMERON",
+		"address": "10, rue du Maréchal Leclerc",
+		"zip": "60400",
+		"dept": "60",
+		"city": "NOYON",
+		"phone": "03 44 30 88 59",
+		"lat": 49.58244706132788,
+		"lng": 3.0046174077572987,
+		"website": "https://armureriecameron.com/",
+		"facebook": "https://www.facebook.com/armureriecameron/",
+		"logo": "armurerie_cameron.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "ARRAS",
+		"name": "ARRAS ARMURERIE",
+		"address": "41, rue de Cambrai",
+		"zip": "62000",
+		"dept": "62",
+		"city": "ARRAS",
+		"phone": "03 21 71 86 87",
+		"lat": 50.2866329447005,
+		"lng": 2.7884008171695207,
+		"website": "https://arras-armurerie.fr/",
+		"facebook": "",
+		"logo": "arras_armurerie.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "ARMAXTAN",
+		"name": "ARMURERIE ARMAXTAN",
+		"address": "26, rue du Stade",
+		"zip": "63200",
+		"dept": "63",
+		"city": "SAINT-BONNET-PRES-RIOM",
+		"phone": "04 73 33 86 71",
+		"lat": 45.93550926990852,
+		"lng": 3.107577389592543,
+		"website": "https://armaxtan.com/",
+		"facebook": "https://www.facebook.com/profile.php?id=100004543217395",
+		"logo": "armurerie_armaxtan.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "NAVARRE",
+		"name": "COMMANDERIE DE NAVARRE",
+		"address": "86, Rte de Bayonne",
+		"zip": "64140",
+		"dept": "64",
+		"city": "BILLERE",
+		"phone": "09 52 91 40 53",
+		"lat": 43.30577716654955,
+		"lng": -0.40220056327325515,
+		"website": "https://commanderiedenavarre.com/",
+		"facebook": "https://m.facebook.com/people/Armurerie-Commanderie-De-Navarre/100063505183582/",
+		"logo": "commanderie_de_navarre.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "DUBUC",
+		"name": "ARMURERIE DUBUC",
+		"address": "2, rue Rollon",
+		"zip": "76260",
+		"dept": "76",
+		"city": "EU",
+		"phone": "02 35 86 41 64",
+		"lat": 50.04710456081955,
+		"lng": 1.41932491938124,
+		"website": "https://www.google.com/maps/place/Dubuc+Alain/@50.0420357,1.3952896,13z/data=!4m10!1m2!2m1!1sarmurerie+dubuc!3m6!1s0x47de007a50e678fd:0x5414a3dd4547dd2f!8m2!3d50.0446157!4d1.4202617!15sCg9hcm11cmVyaWUgZHVidWNaESIPYXJtdXJlcmllIGR1YnVjkgEIZ3VuX3Nob3DgAQA!16s%2Fg%2F1tg789z7",
+		"facebook": "https://www.facebook.com/people/Armurerie-DUBUC/100064769976544/",
+		"logo": "armurerie_dubuc.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "CHATEAU",
+		"name": "ARMURERIE DU CHATEAU",
+		"address": "6, route de Villiers",
+		"zip": "77780",
+		"dept": "77",
+		"city": "BOURRON-MARLOTTE",
+		"phone": "01 60 71 91 64",
+		"lat": 48.33362463758709,
+		"lng": 2.688538653143724,
+		"website": "https://www.armurerie-chateau.fr/",
+		"facebook": "https://fr-fr.facebook.com/armurerieduchateau77/",
+		"logo": "armurerie-du-chateau.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "FANTIN",
+		"name": "ARMURERIE FANTIN",
+		"address": "34 Avenue des Pugets",
+		"zip": "06700",
+		"dept": "06",
+		"city": "ST LAURENT DU VAR",
+		"phone": " 04 93 31 60 51",
+		"lat": 43.67596735163202,
+		"lng": 7.188643007028992,
+		"website": "https://www.google.com/maps/place/Armurerie+Fantin/@43.6757734,7.1864543,17z/data=!4m12!1m6!3m5!1s0x12cdd179ecfb28ed:0xa3c5554df8e496dc!2sArmurerie+Fantin!8m2!3d43.6757734!4d7.1886458!3m4!1s0x12cdd179ecfb28ed:0xa3c5554df8e496dc!8m2!3d43.6757734!4d7.1886458",
+		"facebook": "https://fr-fr.facebook.com/ArmurerieFantin/",
+		"logo": "armurerie_fantin.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "DEVILLE",
+		"name": "DEVILLE ARMORY",
+		"address": "7 Rue de la Croix Blaise",
+		"zip": "57280",
+		"dept": "57",
+		"city": "FEVES",
+		"phone": "06 02 03 82 64",
+		"lat": 49.18659868696194,
+		"lng": 6.148384251920094,
+		"website": "https://devillearmory.fr/",
+		"facebook": "https://www.facebook.com/devillearmory/",
+		"logo": "deville_armory.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "MOUSQUETERIE",
+		"name": "LA MOUSQUETERIE INTERNATIONAL",
+		"address": "89, Rue de la Station",
+		"zip": "95130",
+		"dept": "95",
+		"city": "FRANCONVILLE",
+		"phone": "01 39 59 46 39",
+		"lat": 48.99478586701493,
+		"lng": 2.2371624648495865,
+		"website": "https://www.lamousqueterie-int.com/?page=2",
+		"facebook": "https://www.facebook.com/lamousqueterie",
+		"logo": "la_mousqueterie_international.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "BUFFENOIR",
+		"name": "ARMURERIE BUFFENOIR",
+		"address": "36 Impasse de la Gare",
+		"zip": "67640",
+		"dept": "67",
+		"city": "LIPSHEIM",
+		"phone": "03 88 68 19 96",
+		"lat": 48.4903045,
+		"lng": 7.6711722,
+		"website": "https://www.armurerie-buffenoir.fr",
+		"facebook": "https://www.facebook.com/armureriebuffenoir/?eid=ARBE1vaW4Ei6Ekl2IgeAXTBZJmzrY8Nv9ClrkLhdt-EWgrxWFxVWZ7p94QnvZ4dl5ViLJZ_L0WdQ2KPj",
+		"logo": "armurerie_buffenoir.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "GRAND-EST",
+		"name": "ARMURERIE GRAND EST",
+		"address": "10, rue du Pré Contal",
+		"zip": "54300",
+		"dept": "54",
+		"city": "LUNEVILLE",
+		"phone": "03 83 73 39 08",
+		"lat": 48.5784384,
+		"lng": 6.5137688,
+		"website": "http://www.armurerie-grand-est.fr/",
+		"facebook": "https://www.facebook.com/people/Armurerie-Roussel/100064191693251/?locale=fr_FR",
+		"logo": "Armurerie-Grand-Est.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "ARTISA",
+		"name": "ARTISA'ARM",
+		"address": "17 Avenue Georges CLEMENCEAU",
+		"zip": "80500",
+		"dept": "80",
+		"city": "MONTDIDIER",
+		"phone": "06 82 12 63 57",
+		"lat": 49.6463806,
+		"lng": 2.577115,
+		"website": "https://www.google.com/maps/place/Armurerie+ARTISA+ARM/@49.6463806,2.5749263,17z/data=!4m14!1m7!3m6!1s0x47e7c1cb934a963f:0x4bd79852ae798494!2sArmurerie+ARTISA+ARM!8m2!3d49.6463806!4d2.577115!16s%2Fg%2F11j4d35r1g!3m5!1s0x47e7c1cb934a963f:0x4bd79852ae798494!8m2!3d49.6463806!4d2.577115!16s%2Fg%2F11j4d35r1g?hl=fr",
+		"facebook": "https://www.facebook.com/people/Artisaarm/100058908472285/",
+		"logo": "Logo_Artisa'arm.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "MACAIRE",
+		"name": "ARMURERIE MACAIRE",
+		"address": "7 Av. des Allobroges",
+		"zip": "26100",
+		"dept": "26",
+		"city": "ROMANS-SUR-ISERE",
+		"phone": "04 75 02 15 72",
+		"lat": 45.0516635,
+		"lng": 5.0812613,
+		"website": "https://www.google.com/maps/place/Macaire+Alain/@45.0516635,5.0812613,15z/data=!4m14!1m7!3m6!1s0x47f54d48d3ebe6bd:0x4e24837283ca2f02!2sMacaire+Alain!8m2!3d45.0516635!4d5.0812613!16s%2Fg%2F1tdvz777!3m5!1s0x47f54d48d3ebe6bd:0x4e24837283ca2f02!8m2!3d45.0516635!4d5.0812613!16s%2Fg%2F1tdvz777",
+		"facebook": "https://www.facebook.com/people/Armurerie-Macaire/100067646671569/",
+		"logo": "Armurerie_Alain_Macaire.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "DRUILHET",
+		"name": "ARMURERIE DRUILHET",
+		"address": "27 Rue Georges Lassalle",
+		"zip": "65000",
+		"dept": "65",
+		"city": "TARBES",
+		"phone": "05 62 93 14 38",
+		"lat": 43.234873,
+		"lng": 0.0689546,
+		"website": "https://www.armurerie-tarbes-druilhet.fr/",
+		"facebook": "",
+		"logo": "Armurerie_Druilhet.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "SAINTMARTIN",
+		"name": "ARMURERIE SAINT MARTIN",
+		"address": "3, rue Robert David Anse Marcel",
+		"zip": "97150",
+		"dept": "97",
+		"city": "SAINT-MARTIN",
+		"phone": "06 90 22 40 70",
+		"lat": 18.109287815494117,
+		"lng": -63.039811939383256,
+		"website": "https://www.armureriesaintmartin.com/",
+		"facebook": "https://www.facebook.com/armureriemartinarmes/",
+		"logo": "armurerie_saint_martin.png",
+		"brands": [
+			"CANIK"
+		]
+	}
+]

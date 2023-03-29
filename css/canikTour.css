@@ -6,6 +6,11 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+@import url("https://use.typekit.net/pah0evk.css");
+
+.www a:not(:last-child)::after {
+	content: " | ";
+}
 
 #RGPD-Modal {
 	display: none;
@@ -92,9 +97,14 @@ body {
 	color: #ccc;
 	font-family: "Oswald", sans-serif !important;
 	font-size: 14px;
-	font-weight: 200;
+	font-weight: 400;
 	line-height: 1.625em;
 	position: relative;
+	/** */
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: stretch;
 }
 
 ol,
@@ -1974,7 +1984,7 @@ h6 {
 #header {
 	padding: 0;
 	position: fixed;
-	height: 40px;
+	height: 50px;
 	left: 0;
 	top: 0;
 	right: 0;
@@ -1989,23 +1999,18 @@ h6 {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 }
-
-#header.header-scrolled #logo {
-	width: 200px;
-	height: 30px;
-	margin-top: 7px;
-	margin-left: 10px;
-	background: url(../img/LogoMin.png);
+#header #logo {
+	width: 320px;
+	height: 140px;
+	background: url(../img/Logo_CT_2023.png);
+	cursor: pointer;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-#header #logo {
-	width: 200px;
-	height: 150px;
-	margin-top: -10px;
-	background: url(../img/LogoCT.png);
-	cursor: pointer;
-	background-size: contain;
+#header.header-scrolled #logo {
+	width: 150px;
+	height: 70px;
+	margin-top: 0px;
 }
 
 #header #logo a {
@@ -2013,20 +2018,18 @@ h6 {
 	width: 100%;
 	height: 100%;
 }
-/*
+
 @media (max-width: 768px) {
 	#header #logo {
-		width: 180px;
-		height: 30px;
-		margin-top: 8px;
-		background: url(../img/LogoMin.png);
-		background-size: contain;
-		background-repeat: no-repeat;
+		width: 100px;
+		height: 50px;
+		margin-top: 5px;
+		margin-left: 180px;
 	}
 	#header.header-scrolled #logo {
-		margin-top: -2px;
+		margin-left: 10px;
 	}
-}*/
+}
 
 #header #logo h1 {
 	font-size: 34px;
@@ -2204,7 +2207,7 @@ h6 {
 	position: fixed;
 	right: 15px;
 	z-index: 999;
-	top: 6px;
+	top: 16px;
 	border: 0;
 	background: none;
 	font-size: 24px;
@@ -2384,13 +2387,132 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-area {
-	background: url(../img/VeryGoodTrip--Fond.jpg) center;
+	/* background-image: url(../img/FondWebCanikTour2023.jpg);
 	background-size: cover;
-	background-position: center center !important;
+	background-position: center center !important; */
 }
+
+.home-area .trailler {
+	font-size: 4rem;
+	line-height: 1.25em;
+	font-weight: 600;
+	text-align: left;
+	margin-top: -100px;
+	margin-left: -400px;
+	text-transform: uppercase;
+	padding-top: 2em;
+	color: white;
+}
+
+/****************************************************************
+
+	GRID HEROE 
+
+*****************************************************************/
+
+/** Les deux bvlocs flex **/
+.gridHeroe {
+	/* Retire la scrollbar horizontale */
+	width: 100vw; /* calc(100vw - 12px)*/
+	height: 100vh;
+
+	/** Le fond du heroe **/
+	background-image: url(../img/FondWebCanikTour2023.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	/** Flex gauche/droite (defaut) - haut/bas **/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+
+	/** Masqué le superflu **/
+	overflow-x: hidden;
+}
+/** Bloc de gauche **/
+.gridHeroe .heroeText {
+	width: 40%;
+	position: relative;
+	z-index: 2;
+	transform: translateX(10vw);
+	padding-bottom: 5rem;
+	text-align: left;
+}
+
+/** Bloc de droite **/
+.gridHeroe .heroeIllustation {
+	width: 60%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+	position: relative;
+	z-index: 1;
+}
+/** Les deux images l'une sur l'autre **/
+.gridHeroe .gun,
+.gridHeroe .shadow {
+	width: 150%;
+	height: 100%;
+	object-fit: contain;
+	position: absolute;
+}
+.gridHeroe .shadow {
+	mix-blend-mode: multiply;
+}
+
+/** En portait, les blocs l'un au dessus de l'autre  **/
+@media (orientation: portrait) {
+	.gridHeroe {
+		flex-direction: column-reverse;
+	}
+	.gridHeroe .heroeText {
+		padding: 0 2rem;
+		transform: translate3d(0, -10vh, 0);
+		text-align: center;
+	}
+	.gridHeroe .heroeText,
+	.gridHeroe .heroeIllustation {
+		width: 100%;
+	}
+	.gridHeroe .gun {
+		transform: translateX(20vw);
+	}
+}
+
+.gridHeroe .heroeText h2,
+.gridHeroe .heroeText h3,
+.gridHeroe .heroeText h4 {
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 0;
+}
+/** Style "De nombreux lots à gagner"**/
+.gridHeroe .heroeText h2 {
+	font-weight: 900;
+	font-size: clamp(4rem, 5vw, 7rem);
+	color: rgb(240, 183, 69);
+	margin-bottom: 3rem;
+}
+/** Style "Prochaine étape dans" **/
+.gridHeroe .heroeText h3 {
+	color: rgb(145, 145, 145);
+	margin-bottom: 1rem;
+	font-size: 1em;
+}
+/**Countdown**/
+.gridHeroe .heroeText h4 {
+	font-size: clamp(2rem, 3vw, 5rem);
+	color: #fff;
+	font-weight: 600;
+}
+
 .home-area .logo-VeryGoodTrip {
 	width: 80%;
 }
+
 /* .home-area::before {
 	content: "";
 	background: url(../img/VeryGoodTrip--Logo.png);
@@ -2458,6 +2580,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 	bottom: 50px;
 	border-radius: 1em;
 	padding: 1em 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .home-content a {
@@ -2701,8 +2827,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .Dates .event-list {
 	margin-left: 50px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	gap: 2em;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	transform: translateX(50px);
+	gap: 6em;
 	padding: 2em;
 }
 
@@ -2784,6 +2911,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 	margin-top: 30px;
 }
 */
+.gamme-area {
+	overflow: hidden;
+	padding: 50px 0px;
+}
+
+.gamme-area h6 {
+	margin-top: 50px;
+}
 
 .gamme-area .guns {
 	margin-bottom: 10px;
@@ -2796,6 +2931,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 	width: 100%;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+}
+
+.gamme-area .owl-item {
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0 0 4rem #ccc inset;
+}
+.gamme-area .owl-item img {
+	mix-blend-mode: multiply;
 }
 
 .gamme-area .owl-dot {
@@ -3047,6 +3191,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer-area {
 	padding: 30px 0;
 	background-color: #04091e;
+	margin-top: 0;
 }
 
 .footer-area .social {

@@ -1,0 +1,44 @@
+$breakpoints: (
+	"phone-V": 500px,
+	"phone-H": 768px,
+	"tablet-V": 900px,
+	"tablet-H": 1024px,
+	"laptop": 1280px,
+	"desktop": 1440px,
+);
+
+/* from… */
+@mixin media-min($key) {
+	@media screen and (min-width: map-get($breakpoints, $key)) {
+		& {
+			@content;
+		}
+	}
+}
+
+/* to… */
+@mixin media-max($key) {
+	@media screen and (max-width: map-get($breakpoints, $key) - 1) {
+		& {
+			@content;
+		}
+	}
+}
+
+/* from… to… */
+@mixin media-between($keymin, $keymax) {
+	@media screen and (min-width: map-get($breakpoints, $keymin)) and (max-width: map-get($breakpoints, $keymax) - 1) {
+		& {
+			@content;
+		}
+	}
+}
+
+/* at… */
+@mixin media($key) {
+	@media screen and (min-width: map-get($breakpoints, $key)) and (max-width: map-get( $breakpoints, nth(map-keys($breakpoints), index(map-keys($breakpoints), $key) + 1) ) - 1) {
+		& {
+			@content;
+		}
+	}
+}

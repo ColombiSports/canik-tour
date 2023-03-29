@@ -2,6 +2,7 @@
 function checkRGPD() {
 	// Si pas enregistré...
 	const storage = window.localStorage;
+	storage.clear();
 	if (!storage.getItem("checked")) {
 		//... on affiche la fenêtre...
 		const modal = document.getElementById("RGPD-Modal");
@@ -156,7 +157,7 @@ $(window).ready(function () {
 		autoplayHoverPause: true,
 		mouseDrag: true,
 		lazyLoadEager: 1,
-		margin: 30,
+		margin: 40,
 		responsive: {
 			0: {
 				items: 1,
@@ -360,6 +361,21 @@ $(window).ready(function () {
 			if (diff.days >= 0) return dates[i];
 		}
 		return null;
+
+		// A optimiser ---------------------------------------
+		// let diff, i;
+		// const from = now.getTime();
+
+		// const found = dates.find((date) => {
+		// 	let to = date.getTime();
+		// 	let milliseconds = to - from;
+		// 	console.log("ms ", milliseconds);
+		// 	return (milliseconds > 0);
+
+		// 	// diff = getDiff(now, dates[i]);
+		// 	// if (diff.days >= 0) return dates[i];
+		// })
+		// return null;
 	}
 
 	// Retourne un objet du temps entre 2 dates {days,hours,mins,secs}
@@ -409,7 +425,7 @@ $(window).ready(function () {
 
 			let id = setInterval(function () {
 				// Output the result in a html element
-				countdown.innerHTML = "<div>" + diff.days + " jours " + fixLength(diff.hours) + " heures et " + fixLength(diff.mins) + " minutes</div>";
+				countdown.innerHTML = `<span class="leftTime" >${diff.days} jours ${fixLength(diff.hours)} heures et ${fixLength(diff.mins)} minutes</span>`;
 				diff = getDiff(new Date(), date);
 			}, 1000);
 		}

@@ -1,0 +1,82 @@
+[
+	{
+		"id": "SIC’ARMES",
+		"name": "SIC’ARMES",
+		"address": "3, rue de la Forge",
+		"zip": "85450",
+		"city": "PUYRAVAULT",
+		"phone": "02 51 29 24 52",
+		"lat": 46.37543620602558,
+		"lng": -1.0843409935241894,
+		"website": "https://www.sicarmes-85.fr/",
+		"facebook": "https://www.facebook.com/people/Sicarmes/100028375944582/",
+		"logo": "sic'armes.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "VANNES",
+		"name": "ARMURERIE DOUILLET VANNES",
+		"address": "10, rue du Lieutenant-Colonel MAURY",
+		"zip": "56000",
+		"city": "VANNES",
+		"phone": "02 97 47 15 31",
+		"lat": 47.659177529731146,
+		"lng": -2.75522505390697,
+		"website": "https://www.armurerie-douillet.com/",
+		"facebook": "https://www.facebook.com/people/Armurerie-Douillet/100063463664165/",
+		"logo": "arm_douillet_vannes.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "MARTIN",
+		"name": "MARTIN ARMES",
+		"address": "9, rue des Peupliers",
+		"zip": "39380",
+		"city": "BANS",
+		"phone": "03 84 82 51 28",
+		"lat": 46.98527315084149,
+		"lng": 5.589388351449755,
+		"website": "https://martin-armes.fr/",
+		"facebook": "https://www.facebook.com/armureriemartinarmes",
+		"logo": "martin_armes.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "AGEN",
+		"name": "AGEN CHASSE PÊCHE",
+		"address": "19, avenue Jean Jaures",
+		"zip": "47000",
+		"city": "AGEN",
+		"phone": "05 53 47 02 02",
+		"lat": 44.194728972553364,
+		"lng": 0.644017657495529,
+		"website": "https://www.google.com/maps/place/Agen+Chasse+P%C3%AAche/@44.1944482,0.6417002,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb37ab658f7f1:0xc333931bcfd07ad5!8m2!3d44.1945327!4d0.6439676",
+		"facebook": "https://www.facebook.com/people/Agen-Chasse-Peche/100057753215789/",
+		"logo": "agen_chasse_peche.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "PLUMELIAU",
+		"name": "ARMURERIE DOUILLET PLUMELIAU",
+		"address": "Lieu-dit KERLEDORZ",
+		"zip": "56930",
+		"city": "PLUMELIAU",
+		"phone": "02 97 25 13 33",
+		"lat": 47.93286867608074,
+		"lng": -2.9955114711514916,
+		"website": "https://www.armurerie-douillet.com/",
+		"facebook": "https://www.facebook.com/people/Armurerie-Douillet/100063463664165/",
+		"logo": "arm_douillet_plumeliau.png",
+		"brands": [
+			"CANIK"
+		]
+	}
+]
