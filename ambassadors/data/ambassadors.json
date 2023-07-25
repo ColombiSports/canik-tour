@@ -549,6 +549,91 @@
 		]
 	},
 	{
+		"id": "TERRESAUV",
+		"name": "TERRE SAUVAGE",
+		"address": "13 Avenue de la Libération",
+		"zip": "46130",
+		"dept": "46",
+		"city": "BRETENOUX",
+		"phone": "05 65 38 46 28",
+		"lat": 44.9159231,
+		"lng": 1.8361985,
+		"website": "https://terre-sauvage-46.com/",
+		"facebook": "https://www.facebook.com/profile.php?id=100043063368179",
+		"logo": "Terre_Sauvage.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "ARMCONCEPT",
+		"name": "ARMES CONCEPT",
+		"address": "2 Avenue de Verdun",
+		"zip": "73100",
+		"dept": "73",
+		"city": "AIX LES BAINS",
+		"phone": "04 79 61 47 35",
+		"lat": 45.691569,
+		"lng": 5.9080052,
+		"website": "https://www.armesconcept.fr/categorie-b/",
+		"facebook": "https://www.facebook.com/people/Armes-concept/100057643111277/",
+		"logo": "Armes_Concept.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "AUTRECHASS",
+		"name": "AUTREMENT CHASSE",
+		"address": "Pont de l’Arche",
+		"zip": "10120",
+		"dept": "10",
+		"city": "SAINT GERMAIN",
+		"phone": "03 25 75 12 50",
+		"lat": 48.2621207,
+		"lng": 4.0315975,
+		"website": "https://autrementchasse.fr/",
+		"facebook": "https://www.facebook.com/autrementchasse/",
+		"logo": "Autrement-chassse.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "LATELIERDUFUSIL29",
+		"name": "L'ATELIER DU FUSIL",
+		"address": "20 Rue du Dr Menguy",
+		"zip": "29270",
+		"dept": "29",
+		"city": "CARHAIX",
+		"phone": "02 98 93 02 08",
+		"lat": 48.2741324,
+		"lng": -3.5831808,
+		"website": "https://www.latelierdufusil.fr/",
+		"facebook": "https://www.facebook.com/people/latelier-du-fusil/100040057191384/",
+		"logo": "AtelierDuFusil.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
+		"id": "LATELIERDUFUSIL22",
+		"name": "L'ATELIER DU FUSIL",
+		"address": "Zone du Grand Plessis",
+		"zip": "22940",
+		"dept": "22",
+		"city": "PLAINTEL",
+		"phone": "02 96 32 59 18",
+		"lat": 48.4271078,
+		"lng": -2.8208773,
+		"website": "https://www.latelierdufusil.fr/",
+		"facebook": "https://www.facebook.com/people/latelier-du-fusil/100040057191384/",
+		"logo": "AtelierDuFusil.png",
+		"brands": [
+			"CANIK"
+		]
+	},
+	{
 		"id": "SAINTMARTIN",
 		"name": "ARMURERIE SAINT MARTIN",
 		"address": "3, rue Robert David Anse Marcel",
@@ -559,7 +644,7 @@
 		"lat": 18.109287815494117,
 		"lng": -63.039811939383256,
 		"website": "https://www.armureriesaintmartin.com/",
-		"facebook": "https://www.facebook.com/armureriemartinarmes/",
+		"facebook": "https://www.facebook.com/ArmurierRafa/",
 		"logo": "armurerie_saint_martin.png",
 		"brands": [
 			"CANIK"

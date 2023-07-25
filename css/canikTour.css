@@ -2333,6 +2333,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 	color: #fff;
 }
 
+.logo-canik {
+	width: 250px;
+	height: auto;
+}
+
 #home .far,
 #home .fas {
 	color: #408cca;
@@ -2420,6 +2425,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background-image: url(../img/FondWebCanikTour2023.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: left center;
 	background-position: center;
 
 	/** Flex gauche/droite (defaut) - haut/bas **/
@@ -2434,12 +2440,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 /** Bloc de gauche **/
 .gridHeroe .heroeText {
-	width: 40%;
+	width: 50%;
 	position: relative;
 	z-index: 2;
 	transform: translateX(10vw);
 	padding-bottom: 5rem;
-	text-align: left;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
 /** Bloc de droite **/
@@ -2488,12 +2496,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 	text-transform: uppercase;
 	font-weight: 400;
 	margin: 0;
+	text-align: right;
 }
 /** Style "De nombreux lots à gagner"**/
 .gridHeroe .heroeText h2 {
 	font-weight: 900;
 	font-size: clamp(4rem, 5vw, 7rem);
-	color: rgb(240, 183, 69);
+	color: rgb(255, 0, 0);
 	margin-bottom: 3rem;
 }
 /** Style "Prochaine étape dans" **/
@@ -2507,6 +2516,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	font-size: clamp(2rem, 3vw, 5rem);
 	color: #fff;
 	font-weight: 600;
+	width: 60%;
 }
 
 .home-area .logo-VeryGoodTrip {
@@ -2833,11 +2843,53 @@ body.mobile-nav-active #mobile-nav-toggle {
 	padding: 2em;
 }
 
+.Dates .toCome h2,
+.Dates .toCome h1,
+.Dates .toCome p {
+	background: #ddd;
+	border-radius: 2px;
+	margin-bottom: 7px;
+}
+.Dates .toCome h2 {
+	width: 100px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+.Dates .toCome h1 {
+	width: 250px;
+	height: 35px;
+}
+.Dates .toCome p {
+	height: 12px;
+}
+.Dates .toCome p:not(:last-child) {
+	width: 200px;
+}
+.Dates .toCome p:last-child {
+	width: 150px;
+}
+
+.Dates .toCome::after {
+	content: "PROCHAINEMENT";
+	background-color: #bbb;
+	font-size: 1.25em;
+	color: white;
+	position: absolute;
+	transform: rotate(-8deg) translate(-1em, -5em);
+	padding: 0.25em 1em;
+	border-radius: 1em;
+	z-index: 999;
+}
+
+.Dates .toCome .event-info::before {
+	filter: grayscale(1) brightness(5);
+}
+
 .Dates .eventDone .event-info {
 	filter: grayscale(100%) contrast(70%) brightness(140%);
 }
 
-.Dates .eventDone:before {
+.Dates .eventDone::after {
 	content: "UN SUCCÈS !";
 	background-color: #b60000;
 	font-size: 1.25em;
@@ -2866,10 +2918,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .Dates .event-info h1 {
-	font-size: 3em;
+	font-size: 2.5em;
 	letter-spacing: -0.05em;
-	font-weight: 400;
+	font-weight: 900;
 	color: #900;
+	margin-top: -0.15em;
+}
+.Dates .event-info p {
+	font-size: 1.25em;
+	font-weight: 400;
 	margin-top: -0.15em;
 }
 
