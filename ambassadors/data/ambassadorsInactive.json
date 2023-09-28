@@ -78,5 +78,22 @@
 		"brands": [
 			"CANIK"
 		]
+	},
+	{
+		"id": "AUTRECHASS",
+		"name": "AUTREMENT CHASSE",
+		"address": "Pont de l’Arche",
+		"zip": "10120",
+		"dept": "10",
+		"city": "SAINT GERMAIN",
+		"phone": "03 25 75 12 50",
+		"lat": 48.2621207,
+		"lng": 4.0315975,
+		"website": "https://autrementchasse.fr/",
+		"facebook": "https://www.facebook.com/autrementchasse/",
+		"logo": "Autrement-chassse.png",
+		"brands": [
+			"CANIK"
+		]
 	}
 ]
