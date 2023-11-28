@@ -1,23 +1,5 @@
 [
 	{
-		"id": "AVEYRON",
-		"name": "AVEYRON PECHE CHASSE LOISIRS",
-		"address": "32, rue de la Solidarité",
-		"zip": "12850",
-		"dept": "12",
-		"city": "ONET-LE-CHÂTEAU",
-		"phone": "05 65 78 15 03",
-		"lat": 44.36765474924758,
-		"lng": 2.5810813557425134,
-		"website": "https://aveyronpechechasseloisirs.com/",
-		"facebook": "https://www.facebook.com/people/Aveyron-P%C3%AAche-Chasse-Loisirs-Sarl-Bernad-et-Fils/100057492818549/",
-		"logo": "aveyron_peche_chasse_loisirs.png",
-		"brands": [
-			"TAURUS",
-			"CANIK"
-		]
-	},
-	{
 		"id": "PECHE",
 		"name": "PECHE CHASSE LOISIRS",
 		"address": "154 Route de la Dreche",
@@ -30,10 +12,7 @@
 		"website": "https://aveyronpechechasseloisirs.com/",
 		"facebook": "https://www.facebook.com/pechechasseloisirs81/",
 		"logo": "peche_chasse_loisirs.png",
-		"brands": [
-			"TAURUS",
-			"CANIK"
-		]
+		"brands": ["TAURUS", "CANIK"]
 	},
 	{
 		"id": "EMPREINTE",
@@ -48,10 +27,7 @@
 		"website": "https://www.google.com/maps/place/Empreinte+Nature/@47.2435476,4.9866035,17z/data=!3m1!4b1!4m5!3m4!1s0x47f29b733c4d7dc5:0x3c7df6c89f5af1d7!8m2!3d47.243544!4d4.9887922",
 		"facebook": "https://fr-fr.facebook.com/empreintenature/",
 		"logo": "empreinte_nature.png",
-		"brands": [
-			"TAURUS",
-			"CANIK"
-		]
+		"brands": ["TAURUS", "CANIK"]
 	},
 	{
 		"id": "1000",
@@ -66,17 +42,14 @@
 		"website": "https://www.tirmille.fr/index.php",
 		"facebook": "https://fr-fr.facebook.com/people/Tir1000/100024153832801/",
 		"logo": "tir_1000.png",
-		"brands": [
-			"TAURUS",
-			"CANIK"
-		]
+		"brands": ["TAURUS", "CANIK"]
 	},
 	{
 		"id": "FMR",
 		"name": "ARMURERIE FMR",
 		"address": "3, rue Michelet ",
 		"zip": "93500",
-		"dept": "95",
+		"dept": "93",
 		"city": "PANTIN",
 		"phone": "01 49 42 91 81",
 		"lat": 48.8907795141725,
@@ -84,10 +57,7 @@
 		"website": "https://armurerie-fmr.fr/",
 		"facebook": "",
 		"logo": "armurerie_fmr.png",
-		"brands": [
-			"TAURUS",
-			"CANIK"
-		]
+		"brands": ["TAURUS", "CANIK"]
 	},
 	{
 		"id": "RICHARD",
@@ -102,9 +72,7 @@
 		"website": "https://www.armurerie-richard.com/",
 		"facebook": "https://m.facebook.com/people/Armurerie-Richard/100007866735211/",
 		"logo": "armurerie_richard.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "REMOISE",
@@ -119,9 +87,7 @@
 		"website": "https://www.google.com/maps/place/armurerie+saint+r%C3%A9moise/@43.7929059,4.8243039,17z/data=!3m1!4b1!4m5!3m4!1s0x12b5e589cd4eaef5:0x3c1063cb4a17f6ac!8m2!3d43.792902!4d4.8264926",
 		"facebook": "https://www.facebook.com/people/Armurerie-Saint-R%C3%A9moise-la-page/100051557933892/",
 		"logo": "armurerie_saint_remoise.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "ARMEXPRESS",
@@ -136,9 +102,7 @@
 		"website": "https://armexpress.fr/",
 		"facebook": "https://www.facebook.com/people/Armexpress/100063517901824/?ref=settings",
 		"logo": "armexpress.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "RIFFAUT",
@@ -153,9 +117,7 @@
 		"website": "https://www.riffaut.com/",
 		"facebook": "https://fr-fr.facebook.com/riffautarmurerie/",
 		"logo": "armurerie_riffaut.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "MANSLE",
@@ -170,9 +132,7 @@
 		"website": "https://mansle-passion-nature.business.site/",
 		"facebook": "",
 		"logo": "mansle_passion_nature.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "BAUMEL",
@@ -187,9 +147,7 @@
 		"website": "https://baumel.fr/",
 		"facebook": "",
 		"logo": "armurerie_baumel.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "OCCITAN",
@@ -204,9 +162,7 @@
 		"website": "https://www.tiroccitan.com/",
 		"facebook": "https://www.facebook.com/people/Armurerie-Tir-Occitan/100063501886147/",
 		"logo": "tir_occitan.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "TOURANGELLE",
@@ -221,9 +177,7 @@
 		"website": "https://www.coutellerie-tourangelle.com/",
 		"facebook": "https://www.facebook.com/coutellerietourangelle",
 		"logo": "coutellerie_tourangelle.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "LEYDIER",
@@ -238,9 +192,7 @@
 		"website": "https://www.leydier-armurerie.fr/",
 		"facebook": "https://fr-fr.facebook.com/people/Leydier-Armurerie/100070831467301/",
 		"logo": "armurerie_leydier.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "MILLIET",
@@ -255,9 +207,7 @@
 		"website": "https://www.armurerie-milliet.fr/",
 		"facebook": "",
 		"logo": "armurerie_eric_milliet.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "52",
@@ -272,9 +222,7 @@
 		"website": "https://www.google.com/maps/place/Chasse+Tir+52+Armurerie+Saint+Dizier/@48.6372765,4.9418003,17z/data=!4m5!3m4!1s0x47eb80ebc3f215ab:0xc116dac13178721b!8m2!3d48.6372499!4d4.9439805",
 		"facebook": "https://fr-fr.facebook.com/armurerie.chassetir52/",
 		"logo": "chasse_tir_52.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "POUDRIERE",
@@ -289,9 +237,7 @@
 		"website": "https://lapoudriere.simdif.com/",
 		"facebook": "https://www.facebook.com/people/La-Poudriere-LTD/100077340944306/",
 		"logo": "la_poudriere.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "HENRY",
@@ -306,9 +252,7 @@
 		"website": "https://www.henry-huret.com/",
 		"facebook": "",
 		"logo": "armurerie_henry_huret.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "CAMERON",
@@ -323,9 +267,7 @@
 		"website": "https://armureriecameron.com/",
 		"facebook": "https://www.facebook.com/armureriecameron/",
 		"logo": "armurerie_cameron.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "ARRAS",
@@ -340,9 +282,7 @@
 		"website": "https://arras-armurerie.fr/",
 		"facebook": "",
 		"logo": "arras_armurerie.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "ARMAXTAN",
@@ -357,9 +297,7 @@
 		"website": "https://armaxtan.com/",
 		"facebook": "https://www.facebook.com/profile.php?id=100004543217395",
 		"logo": "armurerie_armaxtan.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "NAVARRE",
@@ -374,9 +312,7 @@
 		"website": "https://commanderiedenavarre.com/",
 		"facebook": "https://m.facebook.com/people/Armurerie-Commanderie-De-Navarre/100063505183582/",
 		"logo": "commanderie_de_navarre.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "DUBUC",
@@ -391,9 +327,7 @@
 		"website": "https://www.google.com/maps/place/Dubuc+Alain/@50.0420357,1.3952896,13z/data=!4m10!1m2!2m1!1sarmurerie+dubuc!3m6!1s0x47de007a50e678fd:0x5414a3dd4547dd2f!8m2!3d50.0446157!4d1.4202617!15sCg9hcm11cmVyaWUgZHVidWNaESIPYXJtdXJlcmllIGR1YnVjkgEIZ3VuX3Nob3DgAQA!16s%2Fg%2F1tg789z7",
 		"facebook": "https://www.facebook.com/people/Armurerie-DUBUC/100064769976544/",
 		"logo": "armurerie_dubuc.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "CHATEAU",
@@ -408,9 +342,7 @@
 		"website": "https://www.armurerie-chateau.fr/",
 		"facebook": "https://fr-fr.facebook.com/armurerieduchateau77/",
 		"logo": "armurerie-du-chateau.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "FANTIN",
@@ -425,9 +357,7 @@
 		"website": "https://www.google.com/maps/place/Armurerie+Fantin/@43.6757734,7.1864543,17z/data=!4m12!1m6!3m5!1s0x12cdd179ecfb28ed:0xa3c5554df8e496dc!2sArmurerie+Fantin!8m2!3d43.6757734!4d7.1886458!3m4!1s0x12cdd179ecfb28ed:0xa3c5554df8e496dc!8m2!3d43.6757734!4d7.1886458",
 		"facebook": "https://fr-fr.facebook.com/ArmurerieFantin/",
 		"logo": "armurerie_fantin.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "DEVILLE",
@@ -442,9 +372,7 @@
 		"website": "https://devillearmory.fr/",
 		"facebook": "https://www.facebook.com/devillearmory/",
 		"logo": "deville_armory.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "MOUSQUETERIE",
@@ -459,9 +387,7 @@
 		"website": "https://www.lamousqueterie-int.com/?page=2",
 		"facebook": "https://www.facebook.com/lamousqueterie",
 		"logo": "la_mousqueterie_international.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "BUFFENOIR",
@@ -476,9 +402,7 @@
 		"website": "https://www.armurerie-buffenoir.fr",
 		"facebook": "https://www.facebook.com/armureriebuffenoir/?eid=ARBE1vaW4Ei6Ekl2IgeAXTBZJmzrY8Nv9ClrkLhdt-EWgrxWFxVWZ7p94QnvZ4dl5ViLJZ_L0WdQ2KPj",
 		"logo": "armurerie_buffenoir.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "GRAND-EST",
@@ -493,9 +417,7 @@
 		"website": "http://www.armurerie-grand-est.fr/",
 		"facebook": "https://www.facebook.com/people/Armurerie-Roussel/100064191693251/?locale=fr_FR",
 		"logo": "Armurerie-Grand-Est.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "ARTISA",
@@ -510,9 +432,7 @@
 		"website": "https://www.google.com/maps/place/Armurerie+ARTISA+ARM/@49.6463806,2.5749263,17z/data=!4m14!1m7!3m6!1s0x47e7c1cb934a963f:0x4bd79852ae798494!2sArmurerie+ARTISA+ARM!8m2!3d49.6463806!4d2.577115!16s%2Fg%2F11j4d35r1g!3m5!1s0x47e7c1cb934a963f:0x4bd79852ae798494!8m2!3d49.6463806!4d2.577115!16s%2Fg%2F11j4d35r1g?hl=fr",
 		"facebook": "https://www.facebook.com/people/Artisaarm/100058908472285/",
 		"logo": "Logo_Artisa'arm.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "MACAIRE",
@@ -527,9 +447,7 @@
 		"website": "https://www.google.com/maps/place/Macaire+Alain/@45.0516635,5.0812613,15z/data=!4m14!1m7!3m6!1s0x47f54d48d3ebe6bd:0x4e24837283ca2f02!2sMacaire+Alain!8m2!3d45.0516635!4d5.0812613!16s%2Fg%2F1tdvz777!3m5!1s0x47f54d48d3ebe6bd:0x4e24837283ca2f02!8m2!3d45.0516635!4d5.0812613!16s%2Fg%2F1tdvz777",
 		"facebook": "https://www.facebook.com/people/Armurerie-Macaire/100067646671569/",
 		"logo": "Armurerie_Alain_Macaire.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "DRUILHET",
@@ -544,9 +462,7 @@
 		"website": "https://www.armurerie-tarbes-druilhet.fr/",
 		"facebook": "",
 		"logo": "Armurerie_Druilhet.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "TERRESAUV",
@@ -561,9 +477,7 @@
 		"website": "https://terre-sauvage-46.com/",
 		"facebook": "https://www.facebook.com/profile.php?id=100043063368179",
 		"logo": "Terre_Sauvage.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "ARMCONCEPT",
@@ -578,9 +492,7 @@
 		"website": "https://www.armesconcept.fr/categorie-b/",
 		"facebook": "https://www.facebook.com/people/Armes-concept/100057643111277/",
 		"logo": "Armes_Concept.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "LATELIERDUFUSIL29",
@@ -595,9 +507,7 @@
 		"website": "https://www.latelierdufusil.fr/",
 		"facebook": "https://www.facebook.com/people/latelier-du-fusil/100040057191384/",
 		"logo": "AtelierDuFusil.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "LATELIERDUFUSIL22",
@@ -612,9 +522,22 @@
 		"website": "https://www.latelierdufusil.fr/",
 		"facebook": "https://www.facebook.com/people/latelier-du-fusil/100040057191384/",
 		"logo": "AtelierDuFusil.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
+	},
+	{
+		"id": "AIGLEPECHEUR",
+		"name": "L’AIGLE PECHEUR",
+		"address": "76 Chemin d’Anguiaou",
+		"zip": "40990",
+		"dept": "40",
+		"city": "ST PAUL LES DAX",
+		"phone": "05 58 91 04 25",
+		"lat": 43.725566,
+		"lng": -0.5937046,
+		"website": "",
+		"facebook": "https://www.facebook.com/laiglepecheur40surinsta/",
+		"logo": "aiglepecheur.png",
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "SAINTMARTIN",
@@ -629,8 +552,6 @@
 		"website": "https://www.armureriesaintmartin.com/",
 		"facebook": "https://www.facebook.com/ArmurierRafa/",
 		"logo": "armurerie_saint_martin.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	}
 ]

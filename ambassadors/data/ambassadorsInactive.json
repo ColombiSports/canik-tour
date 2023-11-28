@@ -11,9 +11,7 @@
 		"website": "https://www.sicarmes-85.fr/",
 		"facebook": "https://www.facebook.com/people/Sicarmes/100028375944582/",
 		"logo": "sic'armes.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "VANNES",
@@ -27,9 +25,7 @@
 		"website": "https://www.armurerie-douillet.com/",
 		"facebook": "https://www.facebook.com/people/Armurerie-Douillet/100063463664165/",
 		"logo": "arm_douillet_vannes.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "MARTIN",
@@ -43,9 +39,7 @@
 		"website": "https://martin-armes.fr/",
 		"facebook": "https://www.facebook.com/armureriemartinarmes",
 		"logo": "martin_armes.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "AGEN",
@@ -59,9 +53,7 @@
 		"website": "https://www.google.com/maps/place/Agen+Chasse+P%C3%AAche/@44.1944482,0.6417002,17z/data=!3m1!4b1!4m5!3m4!1s0x12abb37ab658f7f1:0xc333931bcfd07ad5!8m2!3d44.1945327!4d0.6439676",
 		"facebook": "https://www.facebook.com/people/Agen-Chasse-Peche/100057753215789/",
 		"logo": "agen_chasse_peche.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	},
 	{
 		"id": "PLUMELIAU",
@@ -75,9 +67,22 @@
 		"website": "https://www.armurerie-douillet.com/",
 		"facebook": "https://www.facebook.com/people/Armurerie-Douillet/100063463664165/",
 		"logo": "arm_douillet_plumeliau.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
+	},
+	{
+		"id": "AVEYRON",
+		"name": "AVEYRON PECHE CHASSE LOISIRS",
+		"address": "32, rue de la Solidarité",
+		"zip": "12850",
+		"dept": "12",
+		"city": "ONET-LE-CHÂTEAU",
+		"phone": "05 65 78 15 03",
+		"lat": 44.36765474924758,
+		"lng": 2.5810813557425134,
+		"website": "https://aveyronpechechasseloisirs.com/",
+		"facebook": "https://www.facebook.com/people/Aveyron-P%C3%AAche-Chasse-Loisirs-Sarl-Bernad-et-Fils/100057492818549/",
+		"logo": "aveyron_peche_chasse_loisirs.png",
+		"brands": ["TAURUS", "CANIK"]
 	},
 	{
 		"id": "AUTRECHASS",
@@ -92,8 +97,6 @@
 		"website": "https://autrementchasse.fr/",
 		"facebook": "https://www.facebook.com/autrementchasse/",
 		"logo": "Autrement-chassse.png",
-		"brands": [
-			"CANIK"
-		]
+		"brands": ["CANIK"]
 	}
 ]
