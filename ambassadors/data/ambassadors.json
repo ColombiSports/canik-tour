@@ -540,6 +540,36 @@
 		"brands": ["CANIK"]
 	},
 	{
+		"id": "ARMURERIEVAUBAN",
+		"name": "ARMURERIE VAUBAN",
+		"address": "Chemin de REY, Chaume de BONJUAN",
+		"zip": "89200",
+		"dept": "89",
+		"city": "MAGNY",
+		"phone": "03-86-34-20-05",
+		"lat": 47.488977,
+		"lng": 3.9725862,
+		"website": "https://armurerie-vauban.com/",
+		"facebook": "https://www.facebook.com/armurerievaubanmagny/",
+		"logo": "Logo_Armurerie_Vauban.png",
+		"brands": ["CANIK"]
+	},
+	{
+		"id": "ORSUARMA",
+		"name": "ARMURERIE ORSU ARMA",
+		"address": "15 Rue Paul Colonna d'Istria",
+		"zip": "20090",
+		"dept": "20",
+		"city": "AJACCIO",
+		"phone": "04.95.27.06.76",
+		"lat": 41.9342142,
+		"lng": 8.7379909,
+		"website": "https://www.orsuarma.com/",
+		"facebook": "https://www.facebook.com/armurerieorsuarma",
+		"logo": "orsuarma.png",
+		"brands": ["CANIK"]
+	},
+	{
 		"id": "SAINTMARTIN",
 		"name": "ARMURERIE SAINT MARTIN",
 		"address": "3, rue Robert David Anse Marcel",
